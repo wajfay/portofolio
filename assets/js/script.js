@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "WajWay | Portfolio";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "https://cdn.discordapp.com/attachments/984522420268453892/984971387577987112/4AAtSG6-modified.png");
         }
         else {
             document.title = "WajWay | Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#favicon").attr("href", "https://cdn.discordapp.com/attachments/984522420268453892/984971387577987112/4AAtSG6-modified.png");
         }
     });
 
